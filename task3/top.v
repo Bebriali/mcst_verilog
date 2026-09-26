@@ -14,7 +14,7 @@ initial begin
     val = 8'b00000001; #10;
     val = 8'b00000010; #10;
     val = 8'b00000100; #10;
-    val = 8'b00001000; #10;
+    val = 8'd128; #10;
 
     $finish;
 end

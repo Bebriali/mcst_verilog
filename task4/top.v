@@ -6,7 +6,8 @@ wire    [2:0] res;
 
 \encoder3->8 encoder_inst(
     .in(val),
-    .out(res)
+    .out(res),
+    .valid(valid)
 ); 
 initial begin
     $dumpfile("dump.vcd");
@@ -15,6 +16,7 @@ initial begin
     val = 8'b00000010; #10;
     val = 8'b00000100; #10;
     val = 8'b00001100; #10;
+    val = 8'b00000000; #10;
 
     $finish;
 end
