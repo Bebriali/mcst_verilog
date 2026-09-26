@@ -1,0 +1,15 @@
+C:/Users/maxim/Documents/projects/verilog_mcst/task3/log2.v {1 {vlog -work work -stats=none C:/Users/maxim/Documents/projects/verilog_mcst/task3/log2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module log2
+
+Top level modules:
+	log2
+
+} {} {}} C:/Users/maxim/Documents/projects/verilog_mcst/task3/test_task2.v {1 {vlog -work work -stats=none C:/Users/maxim/Documents/projects/verilog_mcst/task3/test_task2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}}
